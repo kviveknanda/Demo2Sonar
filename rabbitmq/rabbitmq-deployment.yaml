@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: mycluster.icp:8500/default/docker_hub_id/rabbitmq:v0.0.1
+        image: image-registry.openshift-image-registry.svc:5000/myproject/rabbitmq:v0.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 5672

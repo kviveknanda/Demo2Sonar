@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mysql
-        image: mycluster.icp:8500/default/docker_hub_id/mysql:v0.0.1
+        image: image-registry.openshift-image-registry.svc:5000/myproject/mysql:v0.0.1
         imagePullPolicy: Always
         args:
         - --character-set-server=utf8mb4

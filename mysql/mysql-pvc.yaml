@@ -7,7 +7,4 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 15Gi
-  selector:
-    matchLabels:
-      name: mysql-nfs
+      storage: 10Gi
