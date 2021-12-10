@@ -19,7 +19,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<jacoco-maven-plugin.version>0.8.2</jacoco-maven-plugin.version>
-		<rabbitmq-jms.version>1.14.0</rabbitmq-jms.version>
+		<rabbitmq-jms.version>1.15.2</rabbitmq-jms.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
