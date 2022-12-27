@@ -21,7 +21,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<jacoco-maven-plugin.version>0.8.2</jacoco-maven-plugin.version>
 		<hazelcast-client.version>3.12.6</hazelcast-client.version>
-		<hazelcast.version>3.12.6</hazelcast.version>
+		<hazelcast.version>3.12.13</hazelcast.version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
